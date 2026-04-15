@@ -1,6 +1,6 @@
 "use client";
 
-import { SignInButton, SignUpButton } from "@clerk/nextjs";
+import { SignUpButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 
 export function HeroButtons() {
@@ -11,11 +11,6 @@ export function HeroButtons() {
           Get Started Free
         </Button>
       </SignUpButton>
-      <SignInButton mode="modal">
-        <Button variant="outline" size="lg" className="px-8">
-          Sign In
-        </Button>
-      </SignInButton>
     </div>
   );
 }
